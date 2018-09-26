@@ -1,0 +1,50 @@
+.card-img-top {
+  height: 120px;
+  width: 120px;
+  margin: auto; }
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(102, 16, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+.hiring {
+  width: 90px !important;
+  position: absolute;
+  top: 0;
+  left: 350px; }
+
+.blink {
+  animation: blink 1s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  75% {
+    opacity: 1; }
+  76% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+.c_close {
+  top: 15px;
+  right: 16px;
+  background: white;
+  padding: 5px 12px;
+  opacity: 1;
+  border: 1px solid; }
+
+.c_close:hover {
+  opacity: 1 !important;
+  color: #e74c3c !important; }
+
+.c_close + .img-fluid {
+  width: 100%; }
+
+.btn-outline-primary:hover .card {
+  border: #6610F2 1px solid; }
+
+.login-wrap {
+  position: relative;
+  margin: 0 auto;
+  background: #ecf0f1;
+  width: 100%; }
