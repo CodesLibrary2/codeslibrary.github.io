@@ -55,3 +55,26 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 
+
+
+
+
+// Vanilla JS
+document.querySelector('#portfolio').onclick = function (e) {
+    var folio = document.querySelector('#portfoliowrap');
+    folio.classList.toggle('show');
+
+    var me = document.querySelector('#aboutme');
+    me.classList.toggle('hide');
+    e.preventDefault();
+  }
+
+  document.querySelector('#home').onclick = function (e) {
+    var folio = document.querySelector('#portfoliowrap');
+    folio.classList.toggle('show');
+
+    var me = document.querySelector('#aboutme');
+
+    me.classList.toggle('hide');
+    e.preventDefault();
+  }
